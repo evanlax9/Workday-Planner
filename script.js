@@ -44,7 +44,7 @@ $(document).ready(function () {
   $("#16-Pm .description").val(localStorage.getItem("16-Pm"));
   $("#17-Pm .description").val(localStorage.getItem("17-Pm"));
 
-  if (currentHour > 15) {
+  if (currentHour > 17) {
     localStorage.clear();
   }
 
